@@ -41,9 +41,11 @@
     setOpen(false);
   });
 
-  window.matchMedia("(min-width: 760px)").addEventListener("change", function (event) {
-    if (event.matches) {
-      setOpen(false);
-    }
-  });
+  if (window.matchMedia) {
+    window.matchMedia("(min-width: 760px)").addEventListener("change", function (event) {
+      if (event.matches) {
+        setOpen(false);
+      }
+    });
+  }
 })();
