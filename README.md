@@ -1,6 +1,6 @@
 # Stephanne Martin Pottery
 
-A static pottery portfolio for Stephanne Martin. It presents her ceramics only. Do not add shared business history, metalwork, a store, a contact form, or a mailing list.
+A static portfolio for Stephanne Martin's handmade pottery and ceramics. Do not add another person's biography, non-ceramic work, a store, a contact form, or a mailing list.
 
 The intended project-site address is:
 
