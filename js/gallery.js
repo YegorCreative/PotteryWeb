@@ -228,7 +228,6 @@
           "<div class=\"piece-copy\">" +
           "<p class=\"piece-category\">" + escapeHtml(piece.category) + "</p>" +
           "<h3>" + escapeHtml(piece.title) + "</h3>" +
-          (piece.description ? "<p>" + escapeHtml(piece.description) + "</p>" : "") +
           "</div></li>"
         );
       })
@@ -248,7 +247,7 @@
 
     mount.innerHTML =
       (source.some(function (piece) { return piece.placeholder === true; })
-        ? "<p class=\"placeholder-note\">Temporary placeholders are shown until approved photographs are added. They are not pottery by Stephanne Martin.</p>"
+        ? "<p class=\"placeholder-note\">Temporary placeholders. Not pottery by Stephanne Martin.</p>"
         : "") +
       (mode === "all"
         ? "<div class=\"gallery-tools\"><div class=\"filters\" role=\"group\" aria-label=\"Filter pottery by category\"></div><p class=\"gallery-count\" aria-live=\"polite\"></p></div>"

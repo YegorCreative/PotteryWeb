@@ -1,6 +1,6 @@
 # Stephanne Martin Pottery
 
-A static pottery portfolio for GitHub Pages. It has no store, checkout, contact form, mailing list, backend, or database.
+A static pottery portfolio for Stephanne Martin. It presents her ceramics only. Do not add shared business history, metalwork, a store, a contact form, or a mailing list.
 
 The intended project-site address is:
 
