@@ -331,7 +331,7 @@
     paint();
   }
 
-  fetch("data/gallery.json")
+  fetch(new URL("data/gallery.json", window.location.href))
     .then(function (response) {
       if (!response.ok) {
         throw new Error("Gallery data could not be loaded.");
