@@ -8,10 +8,23 @@
 
   document.documentElement.classList.add("js");
 
+  var header = document.querySelector(".site-header");
+
   function setOpen(open) {
     nav.classList.toggle("is-open", open);
+    if (header) {
+      header.classList.toggle("nav-open", open);
+    }
     toggle.setAttribute("aria-expanded", open ? "true" : "false");
     toggle.querySelector(".nav-toggle-label").textContent = open ? "Close" : "Menu";
+  }
+
+  if (header && document.body.classList.contains("home")) {
+    function markSolid() {
+      header.classList.toggle("is-solid", window.scrollY > 24);
+    }
+    markSolid();
+    window.addEventListener("scroll", markSolid, { passive: true });
   }
 
   toggle.addEventListener("click", function () {

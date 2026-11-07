@@ -65,7 +65,7 @@
         );
       })
       .join("");
-    var sizes = piece.sizes || "(min-width: 980px) 30vw, (min-width: 640px) 46vw, 100vw";
+    var sizes = piece.sizes || "(min-width: 1100px) 46vw, 100vw";
     return (
       "<picture>" + sourceHtml +
       "<img src=\"" + escapeHtml(image) + "\" alt=\"" + escapeHtml(piece.alt || piece.title) + "\"" +
@@ -220,8 +220,9 @@
     grid.innerHTML = pieces
       .map(function (piece, index) {
         var flag = piece.placeholder === true ? "<span class=\"piece-flag\">Placeholder</span>" : "";
+        var layout = piece.layout === "wide" || piece.layout === "tall" ? " piece-" + piece.layout : "";
         return (
-          "<li class=\"piece\">" +
+          "<li class=\"piece" + layout + "\">" +
           "<button type=\"button\" class=\"piece-open\" data-index=\"" + (offset + index) + "\" aria-haspopup=\"dialog\" aria-label=\"Open image: " + escapeHtml(piece.title) + "\">" +
           pictureHtml(piece, false) + flag +
           "</button>" +
