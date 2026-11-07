@@ -288,6 +288,18 @@ a:hover {
   color: #fff;
 }
 
+.button svg {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1rem;
+  margin-top: 1.4rem;
+}
+
 .exhibit-hero .button {
   border-color: #fff;
   background: transparent;
@@ -724,6 +736,17 @@ a:hover {
 
   .exhibition .piece-tall {
     grid-row: span 2;
+  }
+
+  .exhibition .piece-tall .piece-open {
+    height: calc(100% - 4.2rem);
+  }
+
+  .exhibition .piece-tall .piece-open img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 28%;
   }
 
   .exhibition .piece-wide {

@@ -62,7 +62,7 @@ Edit only [data/gallery.json](data/gallery.json). Place approved photographs in 
 - Keep paths relative, such as `assets/images/gallery/studio-mug.jpg`. A leading slash is removed so the site still works at `/PotteryWeb/` and on a later custom domain.
 - For photographs, export a WebP and a JPEG at no more than 2000 pixels on the long edge. Include `width` and `height`. Write alt text that describes the real piece.
 
-The homepage hero is separate from the gallery data. Replace `assets/images/placeholders/hero.svg` in [index.html](index.html), then remove the placeholder caption and update the alt text.
+The homepage hero is `assets/images/hero.jpg`. Gallery photographs are managed in [data/gallery.json](data/gallery.json). The published images were retrieved, with authorization, from https://www.stephannemartinpottery.com/. Higher-quality JPEG masters are in `assets/images/originals/`. Do not replace them with illustrations, stock photos, or metalwork.
 
 ## GitHub Pages
 
