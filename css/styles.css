@@ -56,7 +56,7 @@ h1,
 h2,
 h3,
 p {
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 h1,
@@ -216,7 +216,7 @@ a:hover {
 .page-intro h1,
 .contact h1 {
   margin: 0;
-  font-size: clamp(3.3rem, 9vw, 6.6rem);
+  font-size: clamp(2.7rem, 12vw, 6.6rem);
   line-height: 0.92;
 }
 
@@ -296,7 +296,7 @@ a:hover {
 }
 
 .hero-figure figcaption,
-.piece-copy p,
+.piece-copy p:not(.piece-category),
 .gallery-count,
 .placeholder-note,
 .gallery-status {
@@ -397,6 +397,10 @@ a:hover {
 .gallery-count {
   margin: 0.9rem 0 0;
   font-size: 0.95rem;
+}
+
+[data-gallery="all"] {
+  padding-bottom: clamp(3.5rem, 8vw, 6rem);
 }
 
 .gallery-grid {

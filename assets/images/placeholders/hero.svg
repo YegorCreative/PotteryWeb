@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Temporary placeholder. Not pottery by Stephanne Martin.">
+  <rect width="800" height="1000" fill="#F3EBE3"/>
+  <rect x="48" y="48" width="704" height="904" fill="none" stroke="#E4DDD4"/>
+  
+      <ellipse cx="400" cy="760" rx="150" ry="18" fill="#E4D8CC"/>
+      <path d="M330 250h140l18 390c4 78-40 130-88 130s-92-52-88-130z" fill="#E7D2C4" stroke="#7A4E3C" stroke-width="3"/>
+      <ellipse cx="400" cy="250" rx="78" ry="18" fill="#F7F1EA" stroke="#7A4E3C" stroke-width="3"/>
+      <path d="M352 390c30 18 66 18 96 0" fill="none" stroke="#A66F58" stroke-width="3"/>
+      <path d="M348 470c34 20 74 20 108 0" fill="none" stroke="#A66F58" stroke-width="3"/>
+    
+  <rect x="48" y="860" width="704" height="92" fill="#EFE7DE"/>
+  <text x="72" y="898" fill="#292722" font-family="Georgia, serif" font-size="28">PLACEHOLDER</text>
+  <text x="72" y="928" fill="#5E5952" font-family="Georgia, sans-serif" font-size="18">Not the artist's work</text>
+</svg>
