@@ -290,9 +290,20 @@ a:hover {
 .lightbox-media img {
   display: block;
   width: 100%;
+  background: var(--bg-deep);
+}
+
+.hero-figure img,
+.piece-open img {
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  background: var(--bg-deep);
+}
+
+.lightbox-media img {
+  width: 100%;
+  height: auto;
+  max-height: 70dvh;
+  object-fit: contain;
 }
 
 .hero-figure figcaption,
@@ -676,6 +687,8 @@ a:hover {
   }
 
   .lightbox-media img {
+    width: auto;
+    max-width: 100%;
     max-height: calc(100dvh - 1rem);
     object-fit: contain;
   }
