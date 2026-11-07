@@ -225,7 +225,7 @@ a:hover {
 .hero h1,
 .page-intro h1,
 .contact h1 {
-  max-width: 11ch;
+  max-width: 12em;
   margin: 0;
   font-size: clamp(2.8rem, 8vw, 6.4rem);
   line-height: 0.9;
